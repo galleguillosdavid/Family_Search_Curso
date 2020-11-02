@@ -5,14 +5,14 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitClient {
     companion object{
-        private const val URL_BASE = "https://github.com/galleguillosdavid/Family_Search_Curso/blob/master/"
+        private const val URL_BASE = "https://my-json-server.typicode.com/galleguillosdavid/Family_Search_Curso/"
 
-        fun getRetrofitClient():CursoApi{
+        fun getRetrofitClient():BasicoApi{
             val mRetrofit= Retrofit.Builder()
                 .baseUrl(URL_BASE)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
-            return mRetrofit.create(CursoApi::class.java)
+            return mRetrofit.create(BasicoApi::class.java)
         }
     }
 }
