@@ -16,7 +16,9 @@ class BasicoViewModel(application: Application): AndroidViewModel(application) {
     init {
         val basicoDao= BasicDataBase.getDatabase(application).basicDao()
         mRepository= BasicoRepository(basicoDao)
-        mRepository.getDataFromNetwork()
+//        mRepository.getDataFromNetwork()
+        mRepository.getDataFromNetworCorroutines()
+
         liveDataFromLocal= mRepository.allBasicLiveData
     }
 

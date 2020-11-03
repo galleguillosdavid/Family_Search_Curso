@@ -12,6 +12,7 @@ interface BasicoApi {
 @GET ("db.json/")
 fun fetchAllFromNetwork():Call<List<Basico>>
 
+    //Coroutines
 @GET("db.json/")
-fun fetchAllFromNetworkRF():Response<List<Basico>>
+suspend fun fetchAllFromNetworkCoroutines():Response<List<Basico>>
 }

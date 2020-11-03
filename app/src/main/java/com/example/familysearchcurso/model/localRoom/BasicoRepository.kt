@@ -10,7 +10,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class BasicoRepository (private val basicoDao: BasicoDao) {
+class BasicoRepository(private val basicoDao: BasicoDao) {
     private val retroService = RetrofitClient.getRetrofitClient()
     val allBasicLiveData = basicoDao.ShowAllBasicosInDb()
 
@@ -34,6 +34,25 @@ class BasicoRepository (private val basicoDao: BasicoDao) {
                 Log.e("Error", t.message.toString())
             }
         })
+    }
+
+    fun getDataFromNetworCorroutines() = CoroutineScope(Dispatchers.IO).launch {
+        val service = kotlin.runCatching { retroService.fetchAllFromNetworkCoroutines() }
+        service.onSuccess {
+            when (it.code()) {
+                in 200..299 -> {
+                    Log.d("Data", it.message().toString())
+                    it.body()?.let {
+                        basicoDao.InserAllBasicosInDb(converters(it))
+                    }
+                }
+                    in 300..599 -> Log.d("Response", it.body().toString())
+                    else -> Log.d("Error", it.body().toString())
+            }
+        }
+        service.onFailure {
+            Log.e("Error", it.message.toString())
+        }
     }
 
     fun converters(listFromNetwork: List<Basico>): List<BasicoEntity> {
