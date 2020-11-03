@@ -1,0 +1,6 @@
+[
+  {"basico": [{"id": 1,"nombre":"Introduccion", "categoria":"Comienzo", "url": "1","imagen": "url1","dificultad": 1,"duracion": "hh:mm"},
+    {"id": 2,"nombre":"Crear contraseña", "categoria":"Comienzo", "url": "2","imagen": "url1","dificultad": 1,"duracion": "hh:mm"}]},
+  {"medio":  [{"id": 1,"nombre":"introduccion", "categoria":"Comienzo", "url": "1","imagen": "url1","dificultad": 2,"duracion": "hh:mm"},
+    {"id": 2,"nombre":"Crear contraseña", "categoria":"Comienzo", "url": "2","imagen": "url1","dificultad": 2,"duracion": "hh:mm"}]}
+]
