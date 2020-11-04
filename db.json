@@ -1,18 +1,15 @@
 {
-  "1":
-  
-    {
-      "Nombre": "David",
-    "Apellido": "Ruiz",
-   "Email": "ruiz@gmail.com"
-  
-},
-  "2":
-  {
+  "Listado1":
+    [
+      "David",
+      "Ruiz",
+      "ruiz@gmail.com"
+    ],
+  "Listado2":
+  [
    "Nombre": "David2",
    "Apellido": "Ruiz2",
    "Email": "ruiz@gmail.com2",
     "direccion": "camino a casa"
-  }
-  
+  ]
 }
