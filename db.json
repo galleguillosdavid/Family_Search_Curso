@@ -1,13 +1,15 @@
 {
   "1":
- {
+  [
+    {
    "Nombre": "David",
    "Apellido": "Ruiz",
    "Email": "ruiz@gmail.com"
- },
-  {
+    },
+    {
    "Nombre": "David2",
    "Apellido": "Ruiz2",
    "Email": "ruiz@gmail.com2"
- }
+    }
+  ]
 }
