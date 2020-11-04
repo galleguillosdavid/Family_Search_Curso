@@ -11,15 +11,15 @@
     {
       "id": 2,
       "url": "2",
-      "imagen": "url1",
-      "dificultad": 1,
+      "imagen": "url2",
+      "dificultad": 2,
       "duracion": "hh:mm"
     },
     {
-      "id": 2,
-      "url": "2",
-      "imagen": "url1",
-      "dificultad": 1,
+      "id": 3,
+      "url": "3",
+      "imagen": "url3",
+      "dificultad": 3,
       "duracion": "hh:mm"
     }
   ]
