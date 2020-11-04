@@ -1,9 +1,13 @@
 {
-  "1": 
+  "2":
   {
-    "name": "Molecule Man",
-    "age": "29",
-    "secretIdentity": "Dan Jukes"
-    
+    "name": "Madame Uppercut",
+    "age": "39",
+    "secretIdentity": "Jane Wilson",
+    "powers": [
+      "Million tonne punch",
+      "Damage resistance",
+      "Superhuman reflexes"
+    ]
   }
 }
