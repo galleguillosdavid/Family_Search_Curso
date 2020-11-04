@@ -1,4 +1,5 @@
-{"A":
+{
+  "A":
   {
     "name": "Molecule Man",
     "age": "29",
@@ -10,7 +11,8 @@
     ]
   }
 },
-{"B":
+{
+  "B":
   {
     "name": "Madame Uppercut",
     "age": "39",
