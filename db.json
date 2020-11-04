@@ -11,7 +11,8 @@
   {
    "Nombre": "David2",
    "Apellido": "Ruiz2",
-   "Email": "ruiz@gmail.com2"  
+   "Email": "ruiz@gmail.com2",
+    "direccion": "camino a casa"
   }
   
 }
