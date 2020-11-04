@@ -18,9 +18,9 @@
    {
     "id: 3,
     "url": "2",
-      "imagen": "url1",
-      "dificultad": 1,
-      "duracion": "hh:mm"
+    "imagen": "url1",
+    "dificultad": 1,
+    "duracion": "hh:mm"
    }
   ]
 }
