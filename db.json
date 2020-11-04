@@ -11,18 +11,4 @@
       "Radiation blast"
     ]
   }
-},
-{
-  "B":
-  {
-    "name": "Madame Uppercut",
-    "age": "39",
-    "secretIdentity": "Jane Wilson",
-    "powers": 
-    [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
-    ]
-  }
 }
