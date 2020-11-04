@@ -4,7 +4,8 @@
     "name": "Molecule Man",
     "age": 29,
     "secretIdentity": "Dan Jukes",
-    "powers": [
+    "powers": 
+    [
       "Radiation resistance",
       "Turning tiny",
       "Radiation blast"
